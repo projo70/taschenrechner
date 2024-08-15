@@ -1,4 +1,4 @@
-package java12e1;
+package taschenrechner;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -12,9 +12,9 @@ public class mainTaschenrechner extends Application{
 		//Datei aus dem FXMLLoader laden
 		Parent root = FXMLLoader.load(getClass().getResource("taschenrechner.fxml"));
 		//die Szene erzeugen
-		//an den Konstruktor werden der oberste Knoten und die Größe übergeben
+		//an den Konstruktor werden der oberste Knoten und die GrÃ¶ÃŸe Ã¼bergeben
 		Scene meineScene = new Scene (root,450,200);
-		//den Titel über stage setzen
+		//den Titel Ã¼ber stage setzen
 		meineStage.setTitle("Taschenrechner");
 		//die Szene setzen
 		meineStage.setScene(meineScene);
